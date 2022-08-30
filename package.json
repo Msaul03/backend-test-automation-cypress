@@ -1,0 +1,21 @@
+{
+  "name": "cypress_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "Saul Martinez",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.6.0",
+    "json-server": "^0.17.0",
+    "mysql": "^2.18.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "mongodb": "^4.9.0"
+  }
+}
